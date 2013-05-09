@@ -12,8 +12,8 @@ class gas:
         self.mm = mm            # molar mass, kg/kmol
         self.mv = mv            # molecular volume in m3/kmol in liquid form at its b.p.
         
-    def __str__(self):
-        return "%s has molar mass of %s g/mol and molecular volume of %s m3/kmol" % (self.name, self.mm, self.mv)
+    #def __str__(self):
+        #return "%s has molar mass of %s g/mol and molecular volume of %s m3/kmol" % (self.name, self.mm, self.mv)
 
 
 class CO(gas):
@@ -41,7 +41,9 @@ class CO2(gas):
 #def _test():
     #co = CO()
     #hc = propane()
-    #print co
-    #print hc
+    #print co.mm
+    #print hc.mm
     #
 #_test()
+
+#CO.mm
