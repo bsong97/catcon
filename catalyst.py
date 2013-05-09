@@ -5,8 +5,6 @@ Created on Tue Apr 30 23:47:09 2013
 @author: bsong97
 """
 
-class washcoat:
-    pass
 
 class monolith:
     """monolith class"""
@@ -16,6 +14,12 @@ class monolith:
         self.radius = radius    # radius of the channel
 
     def active_site():
+        pass
+    
+    def washcoat():
+        pass
+    
+    def cordierite():
         pass
 
 
