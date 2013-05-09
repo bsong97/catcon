@@ -5,6 +5,15 @@ Created on Wed May  8 09:33:55 2013
 @author: bsong97
 """
 
+# Properties of gas
+class gas:
+    def __init__(self, mm):
+        self.mm = mm            # molar mass, g/mol
+        
+
+
+
+# Exhaust gas with various concentration of elemental gas
 class exhaust:
     def __init__(self, vel, T, P, CO, O2, HC, NOx):
         """The exhaust gas"""
@@ -18,4 +27,10 @@ class exhaust:
         
 
 class inlet(exhaust):
+    """Inlet condition"""
     pass
+
+class initial(exhaust):
+    """Initial condition"""
+    pass
+
