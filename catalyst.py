@@ -15,12 +15,15 @@ class monolith:
 
     def active_site():
         pass
-    
-    def washcoat():
+
+
+class washcoat:
+    def __init__(self):
         pass
-    
-    def cordierite():
-        pass
+
+class cordierite:
+    pass
+
 
 
 class JM(monolith):

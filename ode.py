@@ -10,11 +10,5 @@ import numpy as np
 import scipy as sp
 
 
-class diffusion:
-    """To calculate bulk diffusion coefficient, based on Stefan-Maxwell hard sphere model"""
-    def __init__():
-        pass
-    
-
 class ode:
     pass
