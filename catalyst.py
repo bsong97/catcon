@@ -1,44 +1,37 @@
-# -*- coding: utf-8 -*-
-"""
-Catalytic combustion on thin slice monolithic catalyst
-Created on Tue Apr 30 23:47:09 2013
-@author: bsong97
-"""
+# Here we model a single-channel monolith
 
 
 class monolith:
     """monolith class"""
     def __init__(self, length=5, radius):
         self.data = []
-        self.length = length
+        self.length = length    # length of the channel
         self.radius = radius    # radius of the channel
 
     def active_site():
         pass
-
-
-class washcoat:
-    def __init__(self):
+    
+    def washcoat():
+        pass
+    
+    def cordierite():
         pass
 
-class cordierite:
+
+
+
+
+class J_cat(monolith):
+    """catalyst manufactured by company J"""
     pass
 
 
-
-class JM(monolith):
-    """JM catalyst"""
+class D_cat(monolith):
+    """catalyst manufactured by company D"""
     pass
 
 
-class Degussa(monolith):
-    """Degussa catalyst"""
+class F_cat(monolith):
+    """catalyst manufactured by company F"""
     pass
-
-
-class Ford(monolith):
-    """Ford catalyst"""
-    pass
-
-
 

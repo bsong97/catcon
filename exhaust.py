@@ -1,9 +1,4 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Wed May  8 09:33:55 2013
-
-@author: bsong97
-"""
+# Specifying the exhaust gas
 
 import gas
 
@@ -21,7 +16,7 @@ class exhaust:
         self.O2 = O2            # O2 concentration, ppm
         
 
-# Data from experiment
+# Initial condition data from experiment
 vmean = 2.4     # linear mean fluid velocity
 T_in = 417      # inlet temperature
 P_in = 101325   # inlet pressure
@@ -31,7 +26,8 @@ NOx_in = 0      # inlet NOx concentration
 CO2_in = 0      # inlet CO2 concentration
 
 # Specifying inlet and initial condition for the exhaust gas
-inlet = exhaust(vmean, T_in, P_in, CO_in, HC_in, NOx_in, CO2_in)
-initial = inlet
+initial = exhaust(vmean, T_in, P_in, CO_in, HC_in, NOx_in, CO2_in)
+
+# Specifying the transient inlet 
 
 
