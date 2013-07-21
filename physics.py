@@ -16,7 +16,7 @@ class diffusion:
     def dispersion(self, v):
         """Based on Taylor-Aris dispersion model"""
         vel = self.v
-        return bulk + vel
+        return self.bulk + vel
     
 class advection:
     pass
